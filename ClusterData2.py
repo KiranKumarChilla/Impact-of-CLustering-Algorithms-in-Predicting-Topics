@@ -19,8 +19,8 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from nltk.corpus import wordnet
 english_vocab = set(w.lower() for w in nltk.corpus.words.words())
 #calculating length
-#basePath = r"C:/Users/Kiranchilla/Desktop/spring2017/NC/Assignments/Assignment3/Dtm/TrumpData"
-basePath = r"C:/Users/Kiranchilla/Desktop/Fall 2017/extras/Independenntstudy/Ebola/EbolaVirusData"
+#basePath = r""
+basePath = r""
 list = os.listdir(basePath) # dir is your directory path
 number_files = len(list)
 print(number_files)
